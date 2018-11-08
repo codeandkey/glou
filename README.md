@@ -8,6 +8,7 @@ Every glou node can expose services which each provide an interactive javascript
 Other nodes can query the object and then interact with the service as if it were running in the same environment.
 #### example
 Provider service:
+
     const glou = require('glou')('ProviderServiceName');
 
     /* this service provides some variables with data and a function which echoes its input */
@@ -24,7 +25,9 @@ Provider service:
     });
 
     glou.start();
+
 User service:
+
     const glou = require('glou')('ReaderServiceName');
 
     glou.on('start', () => {
