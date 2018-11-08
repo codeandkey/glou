@@ -1,0 +1,6 @@
+Desirable features:
+    - There is no method for a node to be able to subscribe to changes from a remote service.
+      This would be very useful if a service continuously updates its service with local data which might want to be tracked.
+    - There is no `caller` argument passed to service functions. This would be easy to implement and useful in a variety of situations.
+    - Querying services from the local node could be much simpler. Right now a user has to get the node hash from the Glou object and
+      then query it as if it were a remote node.
