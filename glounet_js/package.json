@@ -1,0 +1,12 @@
+{
+  "name": "glounet",
+  "version": "1.0.0",
+  "description": "reference implementation of a glou network node",
+  "main": "node.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-rsa": "^1.0.1"
+  }
+}

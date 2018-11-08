@@ -1,0 +1,9 @@
+{
+  "name": "glou.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Justin Stanley <jtst@iastate.edu>",
+  "license": "ISC"
+}
