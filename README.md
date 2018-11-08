@@ -58,3 +58,6 @@ The low-level layer must be running on the local system for the javascript inter
 All communication over TCP is secured with authenticated AES-256 encryption (GCM mode).
 
 Key echange is performed with ECDH over prime256v1 and pbkdf2 for key derivation. RSA keys are used to identify and verify nodes.
+
+### contributing
+Suggestions and pull requests are welcome!
