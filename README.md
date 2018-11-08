@@ -1,12 +1,12 @@
-### glou
+## glou
 seamless peer-to-peer glue between interactive javascript objects
-#### purpose
+### purpose
 glou is a peer-to-peer system which makes it extremely simple and straightforward to link services and data transfer over a network.
 
 Every glou node can expose services which each provide an interactive javascript object.
 
 Other nodes can query the object and then interact with the service as if it were running in the same environment.
-#### example
+### example
 Provider service:
 
     const glou = require('glou')('ProviderServiceName');
@@ -50,7 +50,7 @@ User service:
     });
 
     glou.start();
-#### architecture
+### architecture
 glou is split into a low-level networking layer and a higher-level javascript interface.
 
 The low-level layer must be running on the local system for the javascript interface to function.
