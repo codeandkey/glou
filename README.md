@@ -1,5 +1,5 @@
 ## glou
-seamless peer-to-peer glue between interactive javascript objects
+interactive javascript over a peer-to-peer network
 ### purpose
 glou is a peer-to-peer system which makes it extremely simple and straightforward to link services and data transfer over a network.
 
