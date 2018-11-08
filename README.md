@@ -1,7 +1,7 @@
 ## glou
 interactive javascript over a peer-to-peer network
 ### purpose
-glou is a peer-to-peer system which makes it extremely simple and straightforward to link services and data transfer over a network.
+glou is a peer-to-peer system which makes it easy to link services and data transfer over a network.
 
 Every glou node can expose services which each provide an interactive javascript object.
 
@@ -55,6 +55,6 @@ glou is split into a low-level networking layer and a higher-level javascript in
 
 The low-level layer must be running on the local system for the javascript interface to function.
 
-All communication over TCP is secured with AES-256 encryption.
+All communication over TCP is secured with authenticated AES-256 encryption (GCM mode).
 
 Key echange is performed with ECDH over prime256v1 and pbkdf2 for key derivation. RSA keys are used to identify and verify nodes.
