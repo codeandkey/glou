@@ -61,3 +61,4 @@ Key echange is performed with ECDH over prime256v1 and pbkdf2 for key derivation
 
 ### contributing
 Suggestions and pull requests are welcome!
+There is a list of uncompleted features in the TODO file.
